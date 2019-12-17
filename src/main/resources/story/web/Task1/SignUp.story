@@ -9,7 +9,7 @@ Examples:
 |JaimeLannister#{generate(Address.buildingNumber)}@gmail.com   |#{generate(Internet.password '12','16')}|
 
 
-Scenario: Open SignUp form on main page
+Scenario: Open and submit SignUp form
 Given I am on the main application page
 When I enter `<email>` in field located `By.name(email)`
 When I click on element located `By.xpath(//button[@type='submit'])`

@@ -1,0 +1,3 @@
+Composite: When I login as a registered user
+When I enter `test.maryna@yandex.ru` in field located `By.id(user)`
+When I enter `test12345!` in field located `By.id(password)`
